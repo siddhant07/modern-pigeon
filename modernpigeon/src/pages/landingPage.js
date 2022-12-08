@@ -7,9 +7,13 @@ import Footer from '../components/footer';
 class LandingPage extends React.Component {
 
     // track button click function
-    trackButtonClick() {
+    /*trackButtonClick() {
         console.log("track button clicked");
     }
+
+    signUpButtonClick() {
+        console.log("signUp button clicked");
+    }*/
     
   render() {
     return (
@@ -62,7 +66,7 @@ class LandingPage extends React.Component {
                         position: 'relative',
                         textAlign: 'center'
                     }}>
-                        <button id='signUpButton' onClick={this.signUpButtonClick} style={{
+                        <button id='signUpButton' style={{
                             height: '50px',
                             fontSize: '20px',
                             borderRadius: '5px',
@@ -70,7 +74,7 @@ class LandingPage extends React.Component {
                             padding: '10px',
                             backgroundColor: '#C80000',
                             cursor: 'pointer',
-                        }}>Sign up </button>
+                        }}><a href="/sign-in">Sign up</a></button>
                     </div>
                 </div>
                 <img src={packageStack} style={{
@@ -89,7 +93,7 @@ class LandingPage extends React.Component {
                         position: 'relative',
                         textAlign: 'center',
                     }}>
-                        <button id='signUpButton' onClick={this.signUpButtonClick} style={{
+                        <button id='signUpButton' style={{
                             height: '50px',
                             fontSize: '20px',
                             borderRadius: '5px',
@@ -97,7 +101,7 @@ class LandingPage extends React.Component {
                             padding: '10px',
                             backgroundColor: '#C80000',
                             cursor: 'pointer'
-                        }}>Log In </button>
+                        }}><a href="/sign-in">Login</a></button>
                     </div>
                 </div>
             </div>
@@ -134,7 +138,7 @@ class LandingPage extends React.Component {
                         padding: '10px',
                         marginRight: '10px',
                     }}/>
-                    <button id='trackButton' onClick={this.trackButtonClick} style={{
+                    <button id='trackButton' style={{
                         height: '50px',
                         fontSize: '20px',
                         borderRadius: '5px',
@@ -142,7 +146,7 @@ class LandingPage extends React.Component {
                         padding: '10px',
                         backgroundColor: '#C80000',
                         cursor: 'pointer',
-                    }}>Track </button>
+                    }}><a href="/track-package">Track</a></button>
                 </div>
             </div>
         </div>
