@@ -21,7 +21,7 @@ return (
 					<p>We are the number 1 Package Delivery Service</p>
 				
 					<h3>Who are the Board Members?</h3>
-					<p>Animesh Dhole <br></br>Siddhant Godshalwar<br></br>Tyler Rowe<br></br>Navyasree<br></br>Aazin Shaikh</p>
+					<p>Siddhant Godshalwar<br></br>Animesh Dhole<br></br>Tyler Rowe<br></br>Navyasree<br></br>Aazin Shaikh</p>
 					<h3>Why Us?</h3>
 					<p>Your messenger pigeon of the current day delivers your packages quicker, safer, and more conveniently</p>
 					<br></br>
