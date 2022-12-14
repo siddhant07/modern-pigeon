@@ -83,15 +83,7 @@ export default function PaymentForm() {
                     <CardElement options={CARD_OPTIONS}/>
                 </div>
             </fieldset>
-            <button id='signUpButton' style={{
-                            height: '50px',
-                            fontSize: '20px',
-                            borderRadius: '5px',
-                            border: '1px solid black',
-                            padding: '10px',
-                            backgroundColor: '#C80000',
-                            cursor: 'pointer'
-                        }}><a href="/paymentSuccessful">Pay</a></button>
+            <button class="btn">Pay</button>
             
         </form>
         :

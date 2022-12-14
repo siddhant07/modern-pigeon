@@ -25,13 +25,14 @@ const Navbar = () => {
             <NavLink to='/ship' activeStyle>
                Ship
             </NavLink>
-            
+            {deliveryAdminLoggedInState ? <NavLink to='/admin' activeStyle> Admin </NavLink> : null}
+            {deliveryAdminLoggedInState ? <NavLink to='/driver' activeStyle> Driver </NavLink> : null}
             <NavLink to='/about' activeStyle>
               About
             </NavLink>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/sign-in'>Hi, Siddhant(Customer)</NavBtnLink>      
+            <NavBtnLink to='/sign-in'>Hi, Siddhant(Admin)</NavBtnLink>      
           </NavBtn>
         </Nav>
       </>

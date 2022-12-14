@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 
 app.use(cors())
 
-app.post("https://modernpigeon-007.uc.r.appspot.com/payment", cors(), async (req, res) => {
+app.post("http://localhost:3000/payment", cors(), async (req, res) => {
 	let { amount, id } = req.body
 	try {
 		const payment = await stripe.paymentIntents.create({
@@ -34,7 +34,7 @@ app.post("https://modernpigeon-007.uc.r.appspot.com/payment", cors(), async (req
 	}
 })
 
-const port=process.env.PORT || 4000
+const port=process.env.PORT || 3000
 app.listen(port, () => {
 	console.log(`Sever is listening on port ${port}`)
 })
