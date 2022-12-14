@@ -60,7 +60,7 @@ class LandingPage extends React.Component {
                         textAlign: 'center',
                         fontSize: '25px',
                     }}>
-                        Sign up for an account
+                        Welcome, Siddhant(Customer)
                     </p>
                     <div style={{
                         position: 'relative',
@@ -74,7 +74,7 @@ class LandingPage extends React.Component {
                             padding: '10px',
                             backgroundColor: '#C80000',
                             cursor: 'pointer',
-                        }}><a href="/sign-in">Sign up</a></button>
+                        }}><a href="/sign-in">Account :</a></button>
                     </div>
                 </div>
                 <img src={packageStack} style={{
@@ -87,7 +87,7 @@ class LandingPage extends React.Component {
                         textAlign: 'center',
                         fontSize: '25px',
                     }}>
-                        Already have an account?
+                        Want to ship a package?
                     </p>
                     <div style={{
                         position: 'relative',
@@ -101,7 +101,7 @@ class LandingPage extends React.Component {
                             padding: '10px',
                             backgroundColor: '#C80000',
                             cursor: 'pointer'
-                        }}><a href="/sign-in">Login</a></button>
+                        }}><a href="/ship">Ship</a></button>
                     </div>
                 </div>
             </div>
