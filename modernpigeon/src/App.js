@@ -7,6 +7,7 @@ import Payment from './pages/Payment/payment';
 import Ship from './pages/Ship/ship';
 import SignIn from './pages/sign-in';
 import About from './pages/about';
+import PaymentSucessful from './pages/paymentSuccessful';
 import LandingPage from './pages/landingPage';
 import Footer from './components/footer';
 import { RecoilRoot, useRecoilState } from 'recoil';
@@ -44,6 +45,7 @@ function App() {
             <Route path="/ship" element={<Ship />} />
             <Route path="/driver" element={<Driver />} />
             <Route path="/about" element={<About />} />
+            <Route path="/paymentSuccessful" element={<PaymentSucessful />} />
             <Route path="/sign-in" element={<SignIn />} />
 
           </Routes>
