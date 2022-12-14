@@ -169,9 +169,9 @@ handleSelect = address => {
           />
           <label htmlFor="radio_buttons">Shipping speed</label>
           <ul id="radio_buttons">
-            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="5" />
-            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="3" />
-            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="2" />
+            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="  5" />
+            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="  3" />
+            <InputRadio updateResults={this.updateResults} shipping_speed={this.state.shipping_speed} days="  2" />
           </ul>
           {/*<button type="button" id="submit_button">Calculate</button>*/}
         </form>

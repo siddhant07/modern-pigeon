@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export const Register = (props) => {
     const [email, setEmail] = useState('');
+    const [acType, setType] = useState('');
     //const [pass, setPass] = useState('');
     const [name, setName] = useState('');
     const [passwordError, setPasswordErr] = useState("");
@@ -70,13 +71,18 @@ export const Register = (props) => {
         console.log(email);
     }
 
+    
+
     return (
         <div className="auth-form-container">
             <h2>Register</h2>
         <form className="register-form" onSubmit={handleSubmit}>
+            <label htmlFor="name">Full Name</label>
             <input value={name} onChange={(e) => setName(e.target.value)}type="name" placeholder="Full Name" id="name" name="name" />
             <label htmlFor="email">Email</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
+            <label htmlFor="radio_buttons">Account Type</label>
+            <input value={acType} onChange={(e) => setType(e.target.value)}type="acType" placeholder="Customer/Driver/Admin" id="acType" name="acType" />
             <label htmlFor="password">Password</label>
             <input value={passwordInput.password} onChange={handlePasswordChange} onKeyUp={handleValidation} type="password" placeholder="********" id="password" name="password"/>
             {passwordError}
