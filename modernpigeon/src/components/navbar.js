@@ -25,8 +25,7 @@ const Navbar = () => {
             <NavLink to='/ship' activeStyle>
                Ship
             </NavLink>
-            {deliveryAdminLoggedInState ? <NavLink to='/admin' activeStyle> Admin </NavLink> : null}
-            {deliveryAdminLoggedInState ? <NavLink to='/driver' activeStyle> Driver </NavLink> : null}
+            
             <NavLink to='/about' activeStyle>
               About
             </NavLink>
@@ -40,3 +39,6 @@ const Navbar = () => {
   };
     
   export default Navbar;
+
+  /*{deliveryAdminLoggedInState ? <NavLink to='/admin' activeStyle> Admin </NavLink> : null}
+            {deliveryAdminLoggedInState ? <NavLink to='/driver' activeStyle> Driver </NavLink> : null}*/
