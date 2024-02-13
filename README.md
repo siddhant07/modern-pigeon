@@ -17,14 +17,6 @@ The Delivery Management System is a comprehensive solution for managing package 
 - Web Technologies: HTML, CSS
 - Tools: Google Maps APIs
 
-## Setup Instructions
-1. Clone the repository: `git clone https://github.com/siddhant07/delivery-management-system.git`
-2. Navigate to the project directory: `cd delivery-management-system`
-3. Install dependencies: `npm install`
-4. Set up the database: Create MySQL database and import the provided schema file
-5. Configure environment variables for database connection
-6. Start the application: `npm start`
-
 ## Usage
 - Access the application through the provided URL
 - Use the provided functionalities for package tracking, payment, and customer support
